@@ -5,6 +5,7 @@ import { CategorySelect } from "../../components/CategorySelect";
 import { ListDivider } from "../../components/ListDivider";
 import { Appointment } from "../../components/Appointment";
 import { ListHeader } from "../../components/ListHeader";
+import { Background } from "../../components/Background";
 import { ButtonAdd } from "../../components/ButtonAdd";
 import { Profile } from "../../components/Profile";
 
@@ -47,7 +48,7 @@ export function Home() {
   }
 
   return (
-    <View style={styles.container}>
+    <Background>
       <View style={styles.header}>
         <Profile />
         <ButtonAdd />
@@ -70,6 +71,6 @@ export function Home() {
           showsVerticalScrollIndicator={false}
         />
       </View>
-    </View>
+    </Background>
   );
 }
