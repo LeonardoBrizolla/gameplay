@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, Image, Alert, ActivityIndicator } from "react-native";
 
-import { useAuth } from "../../components/Hooks/auth";
+import { useAuth } from "../../Hooks/auth";
 
 import IllustrationImg from "../../assets/illustration.png";
 import { styles } from "./styles";

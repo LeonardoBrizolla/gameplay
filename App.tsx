@@ -10,7 +10,7 @@ import { useFonts } from "expo-font";
 
 LogBox.ignoreLogs(['You are not currently signed in to Expo on your development machine.'])
 
-import { AuthProvider } from "./src/components/Hooks/auth"
+import { AuthProvider } from "./src/Hooks/auth"
 
 import { Routes } from "./src/routes";
 import { Background } from "./src/components/Background";
